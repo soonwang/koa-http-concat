@@ -1,0 +1,27 @@
+{
+  "name": "koa-http-concat",
+  "version": "0.1.0",
+  "description": "A koa middleware for concatenating files in a given context: CSS and JS files usually",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangsong3635/koa-http-concat.git"
+  },
+  "keywords": [
+    "koa",
+    "http-concat",
+    "combo"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "soonwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangsong3635/koa-http-concat/issues"
+  },
+  "homepage": "https://github.com/wangsong3635/koa-http-concat#readme"
+}
