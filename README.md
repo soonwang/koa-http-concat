@@ -4,6 +4,8 @@ A koa middleware for concatenating files in a given context: CSS and JS files us
 
 Reference [http-cancat](https://github.com/weizs/http-concat)
 
+[![NPM version](https://badge.fury.io/js/koa-http-concat.svg)](http://badge.fury.io/js/koa-http-concat)
+
 ## Install
 
 ``` bash
@@ -16,10 +18,10 @@ npm i koa-http-concat -S
 
 ``` javascript
 const path = require('path');
-const koa = require('koa');
+const Koa = require('koa');
 const koaHttpConcat = require('koa-http-concat');
 
-const app = koa();
+const app = new Koa();
 
 app.use(koaHttpConcat({
 	base: path.join(__dirname, 'public'),
