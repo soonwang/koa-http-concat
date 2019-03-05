@@ -1,6 +1,6 @@
 {
   "name": "koa-http-concat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A koa middleware for concatenating files in a given context: CSS and JS files usually",
   "main": "index.js",
   "scripts": {
